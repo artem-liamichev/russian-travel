@@ -1,19 +1,19 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 28px 48px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
 }
 
 @media (max-width: 1023px) {
-    .header {
-        padding: 28px 24px 0;
-    }    
+  .header {
+    padding: 28px 24px 0;
+  }
 }
-    
+
 @media (max-width: 767px) {
-    .header {
-        padding: 16px 16px 0;
-    }    
+  .header {
+    padding: 16px 16px 0;
+  }
 }
 
 /* @media (min-width: 1024px) {
@@ -22,7 +22,7 @@
         justify-content: space-between;
         border: 1px solid green;
         padding: 0 48px;
-    }    
+    }
 }
 
 @media (max-width: 1024px) {
@@ -31,7 +31,7 @@
         justify-content: space-between;
         border: 1px solid blue;
         padding: 0 3.7%;
-    }    
+    }
 }
 
 @media  (max-width: 768px) {

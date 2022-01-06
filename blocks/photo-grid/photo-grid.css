@@ -12,22 +12,22 @@
 }
 
 @media screen and (max-width: 1025px) {
-    .photo-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
+  .photo-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 769px) {
-    .photo-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-    }
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .photo-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(12, 1fr);
-    }
+  .photo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+  }
 }
