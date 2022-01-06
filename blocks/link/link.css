@@ -1,0 +1,10 @@
+.link {
+    font-family: Inter;
+    font-weight: normal;   
+    color: white;
+    transition: opacity 0.3s;
+}
+
+.link:hover{
+    opacity: 0.8;
+}

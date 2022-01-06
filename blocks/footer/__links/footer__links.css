@@ -1,0 +1,11 @@
+
+.footer__links li {
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer__links li {
+        display: flex;
+    }
+}

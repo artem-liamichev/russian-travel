@@ -1,0 +1,38 @@
+.place__paragraph {
+    margin:0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    /* Line height: 29px */
+    line-height: 163%;
+    max-width: 484px;
+
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.place__paragraph:last-child {
+    margin-top: 26px;
+  }
+
+  
+@media screen and (max-width: 1025px) {
+    .place__paragraph {
+        max-width: 456px;
+    }   
+}
+
+@media screen and (max-width: 910px) {
+    .place__paragraph {
+        max-width: 352px;
+
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .place__paragraph {
+        max-width: 288px;
+
+    }
+}

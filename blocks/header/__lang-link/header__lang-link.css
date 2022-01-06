@@ -1,0 +1,15 @@
+.header__lang-link {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.header__lang-link:hover{
+    opacity: 0.7;
+}
+
+.header__lang-link:first-child {
+    justify-self: flex-end;
+    margin-right: 18px;
+    text-decoration: underline;
+}
