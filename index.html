@@ -13,10 +13,10 @@
   <div class="page__container">
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="лого сайта">
-      <nav class="header__lang-links">
-        <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
+      <div class="header__lang-links">
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
-      </nav>
+      </div>
     </header>
     <main class="content">
       <section class="lead">
@@ -64,12 +64,12 @@
         <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="холмы в тумане" data-type="auto">
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская
              коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <img class="place__image" src="images/place-kosa.jpg" alt="камни в прозрачной воде">
           <div class="place__text">
@@ -82,12 +82,12 @@
               и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная
               в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
           </div>
           <img class="place__image" src="images/place-kolsky.jpg" alt="заснеженный берег">
           <div class="place__text">
@@ -95,12 +95,12 @@
               а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
             <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+            <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
           </div>
           <img class="place__image" src="images/place-altai.jpg" alt="маленький ноутбук на фоне зеленого леса">
             <div class="place__text">
@@ -110,12 +110,12 @@
                 а на равнинах пасутся косули.
                 И знаменитые манулы — тоже обитатели Алтайского края.</p>
             </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="images/place-winter-baikal.jpg" alt="трещины на льду">
           <div class="place__text">
@@ -126,11 +126,11 @@
               соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="images/place-karelia.jpg" alt="водоем на фоне леса">
@@ -139,7 +139,7 @@
               чем полтысячелетия. Прикоснитесь
               к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="cover">
         <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala">
@@ -155,11 +155,11 @@
     <footer class="footer">
       <nav class="footer__links">
         <ul class="list">
-          <li class="list-item"><a href="#" class="footer__link" target="_blank">Карты</a></li>
-          <li class="list-item"><a href="#" class="footer__link" target="_blank">Погода</a></li>
-          <li class="list-item"><a href="#" class="footer__link" target="_blank">Расписание</a></li>
-          <li class="list-item"><a href="#" class="footer__link" target="_blank">Календарь</a></li>
-          <li class="list-item"><a href="#" class="footer__link" target="_blank">Путешествия</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link" target="_blank">Карты</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link" target="_blank">Погода</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link" target="_blank">Расписание</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link" target="_blank">Календарь</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link" target="_blank">Путешествия</a></li>
         </ul>
       </nav>
       <p class="footer__copyright">&copy;2022. Артем Лямичев</p>

@@ -1,0 +1,5 @@
+.header__lang-link_active {
+  /* justify-self: flex-end; */
+  /* margin-right: 18px; */
+  text-decoration: underline;
+}

@@ -4,10 +4,11 @@
   line-height: 22px;
   /* identical to box height, or 122% */
   text-decoration-line: underline;
+  transition: opacity 0.3s;
 }
 
 .place__link:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px)  {

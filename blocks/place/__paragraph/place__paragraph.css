@@ -5,8 +5,8 @@
   line-height: 29px;
   max-width: 484px;
   min-width: 0;
-  min-height: 0;
-  overflow: hidden;
+  /* min-height: 0; */
+  /* overflow: hidden; */
 }
 
 .place__paragraph:nth-child(2n) {
@@ -36,7 +36,7 @@
     max-width: 288px;
     margin: 0 auto;
     line-height: 26.08px;
-    white-space: pre-line;
+    /* white-space: pre-line; */
   }
   .place__paragraph:nth-child(2n) {
     margin-top: 25px;
