@@ -1,17 +1,14 @@
 .footer__copyright {
   margin: 0;
-  font-family: 'Inter', Helvetica, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  /* identical to box height, or 114% */
 }
 
 @media screen and (max-width: 767px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 14px;
-    margin-left: 16px;
     margin-top: 16px;
   }
 }

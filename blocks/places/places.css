@@ -3,3 +3,27 @@
   color: #FFFFFF;
   max-width: 984px;
 }
+
+
+@media screen and (max-width: 1025px)  {
+  .places {
+    max-width: 928px;
+    min-width: 720px;
+  }
+}
+
+
+@media screen and (max-width: 769px)  {
+  .places {
+    max-width: 720px;;
+    margin-top: 88px;
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 767px)  {
+  .places {
+    margin-top: 64px;
+    max-width: 320px;;
+  }
+}

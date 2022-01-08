@@ -2,9 +2,22 @@
   color: white;
   text-decoration: none;
   transition: opacity 0.3s;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 6px;
 }
 
 .header__lang-link:hover{
   opacity: 0.7;
 }
+
+@media (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 8px;
+  }
+}
+
 

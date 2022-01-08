@@ -1,12 +1,11 @@
 .place__title {
   margin:0;
   margin-bottom: 48px;
-  font-family: 'Inter', Helvetica, sans-serif;
   font-weight: 900;
   font-size: 72px;
-  /* Line height: 76px */
-  line-height: 87%;
+  line-height: 76px;
   max-width: 460px;
+  white-space: pre-line;
 }
 
 @media screen and (max-width: 1025px) {
@@ -24,11 +23,13 @@
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 767px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    /* identical to box height, or 109% */
+    margin-left: 16px;
+    margin-bottom: 32px;
+    white-space: normal;
   }
 }

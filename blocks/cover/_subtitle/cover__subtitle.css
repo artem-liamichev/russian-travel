@@ -17,6 +17,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
+    white-space: pre-line;
     /* or 114% */
   }
 }

@@ -1,9 +1,9 @@
 .footer__link {
   color: white;
   text-decoration: none;
+  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  /* identical to box height, or 112% */
   margin-right: 18px;
   transition: opacity 0.3s;
 }
@@ -16,8 +16,9 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-    margin-left: 16px;
     margin-bottom: 32px;
   }
 }
+
+
 

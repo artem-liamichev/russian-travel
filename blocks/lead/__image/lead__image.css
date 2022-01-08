@@ -5,6 +5,7 @@
   margin: 64px auto 0;
   padding-bottom: 8px;
   object-fit: cover;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 1279px)  {
