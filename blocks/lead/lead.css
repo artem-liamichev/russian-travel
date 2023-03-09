@@ -1,29 +1,14 @@
 .lead {
-  /* margin-right: auto;
-  margin-left: auto;
-  margin-top: 56px; */
   max-width: 984px;
   margin: 56px auto 0;
-  /* max-height: 1005px; */
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 
-
-/* @media screen and (max-width: 767px)  {
-  .lead {
-    padding-right: ;
-    pl
-  }
-} */
-
-
 @media screen and (max-width: 1025px)  {
   .lead {
     margin-top: 48px;
-    /* padding-right: 48px;
-    padding-left: 48px; */
   }
 }
