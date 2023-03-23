@@ -1,14 +1,12 @@
-# Проект: Путешествие по России
+# Project: Traveling Across Russia
+https://artem-liamichev.github.io/russian-travel/index.html
 
-### описание проекта и его функциональности
-- Проект вдохновлен путешествиями по России.
-- Проект содержит материалы о главных точках притяжения путешествеников.  
+### Project Description and Functionality
+- The project is inspired by travels across Russia.
+- The project contains materials (photos and descriptions) about the main attractions for travelers.
+- English and Russian versions are available
 
-**При создании проекта использованы**
+**The project was created using**
 - Flexbox;
-- Nested БЭМ;
+- Nested BEM;
 - Grid
-
-**Проект опубликован**
-
-* [ссылка на GitHub Pages](https://artem-liamichev.github.io/russian-travel/index.html)

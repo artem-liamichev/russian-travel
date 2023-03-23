@@ -71,21 +71,16 @@ function resetActiveClass(arr, activeClass) {
 }
 
 function checkActiveLnagButton() {
-    console.log('currentLang:', currentLang)
     switch (currentLang) {
         case 'ru':
             document
                 .querySelector('[data-btn="ru"]')
                 .classList.add('header__lang-link_active');
-            // const elements = document.querySelectorAll('ru').style.display = block;
-            // document.querySelectorAll('en').style.display = hidden;
             break;
         case 'en':
             document
                 .querySelector('[data-btn="en"]')
                 .classList.add('header__lang-link_active');
-            // document.querySelectorAll('ru').style.display = block;
-            // document.querySelectorAll('en').style.display = hidden;
             break;
       default:
           document
